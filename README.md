@@ -8,4 +8,4 @@ Video of the app running is available [here](https://youtu.be/95gsOrr36II).
 
 ## Medium.com
 
-Read the accompanying article [here]()
+Read the accompanying article [here](https://billyleverington.medium.com/day-night-map-for-flutter-407d5a1dc292)
