@@ -1,7 +1,6 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
-import 'package:playground/zoomOverlay.dart';
 import 'daynightMap.dart';
 import 'package:intl/intl.dart' as intl;
 
@@ -62,9 +61,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
     return Scaffold(
         body: ListView(children: [
-      ZoomOverlay(
-          twoTouchOnly: true,
-          child: DayNightMap(cityList: _cityList, datetime: showDate.toUtc())),
+      DayNightMap(cityList: _cityList, datetime: showDate.toUtc()),
       Center(child: Text(intl.DateFormat.yMd().add_jm().format(showDate)))
     ]));
   }
